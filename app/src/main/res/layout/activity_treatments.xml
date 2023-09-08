@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="match_parent"
+        android:layout_height="109dp"
+        android:layout_alignParentEnd="true"
+        android:gravity="center"
+        android:layout_marginBottom="5dp"
+        android:lines="2"
+        android:padding="10dp"
+        android:text="Suggested Prescription"
+        android:textColor="#1E31CF"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/Diagnosis_constant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView25"
+        android:layout_margin="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:padding="10dp"
+        android:text="Diagnosis"
+        android:textColor="#1E31CF"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/treatment_constant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView25"
+        android:layout_margin="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_toRightOf="@+id/Diagnosis_constant"
+        android:padding="10dp"
+        android:text="Treatment"
+        android:textColor="#1E31CF"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/Usage_constant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView25"
+        android:layout_margin="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_toRightOf="@+id/treatment_constant"
+        android:padding="10dp"
+        android:text="Usage"
+        android:textColor="#1E31CF"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/diseaseId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Diagnosis_constant"
+        android:layout_alignStart="@+id/Diagnosis_constant"
+        android:layout_marginBottom="5dp"
+        android:layout_alignEnd="@id/Diagnosis_constant"
+        android:padding="10dp"
+        android:gravity="center"
+
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/treatmentId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+
+        android:layout_below="@+id/treatment_constant"
+        android:layout_alignStart="@+id/treatment_constant"
+        android:layout_alignEnd="@id/treatment_constant"
+        android:padding="10dp"
+        android:gravity="center"
+
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/usaId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Usage_constant"
+        android:layout_alignStart="@+id/Usage_constant"
+        android:layout_marginBottom="5dp"
+
+        android:padding="10dp"
+        android:gravity="center"
+
+        android:textSize="14dp"/>
+
+    <TextView
+        android:id="@+id/diseaseId2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/diseaseId"
+        android:layout_alignStart="@+id/diseaseId"
+        android:layout_alignEnd="@+id/diseaseId"
+        android:padding="10dp"
+        android:gravity="center"
+        android:layout_alignBaseline="@+id/treatmentId2"
+
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/treatmentId2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/treatmentId"
+        android:layout_alignStart="@+id/treatmentId"
+        android:layout_alignEnd="@+id/treatmentId"
+        android:padding="10dp"
+        android:gravity="center"
+
+        android:textSize="14dp"
+        />
+
+    <TextView
+        android:id="@+id/usaId2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/usaId"
+        android:layout_alignStart="@+id/usaId"
+        android:padding="10dp"
+        android:gravity="center"
+
+        android:textSize="14dp" />
+</RelativeLayout>
